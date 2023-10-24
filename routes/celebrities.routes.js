@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const Celebrity = require("../models/Celebrity.model");
 
-/* GET home page */
+
 router.get('/celebrities/create', (req, res) => {
     res.render('celebrities/new-celebrity');
   });
